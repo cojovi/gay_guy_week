@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ff4fa3">
+  <meta name="description" content="The Gay Guy of the Week — a lovingly unserious weekly award for people who bring the sparkle.">
+  <title>The Gay Guy of the Week — Marquett Burton</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,800;1,800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #191321;
+      --paper: #fffaf3;
+      --pink: #ff4fa3;
+      --red: #ff5d62;
+      --orange: #ff9e44;
+      --yellow: #ffd84f;
+      --green: #84d94d;
+      --cyan: #53d9d1;
+      --blue: #4f89ff;
+      --violet: #9666ff;
+      --line: rgba(25, 19, 33, .17);
+      --shadow: 7px 8px 0 var(--ink);
+      --radius: 28px;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+      overflow-x: hidden;
+    }
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      opacity: .18;
+      pointer-events: none;
+      background-image: radial-gradient(rgba(25,19,33,.22) .7px, transparent .7px);
+      background-size: 9px 9px;
+      mix-blend-mode: multiply;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+    button { font: inherit; }
+    .wrap { width: min(1180px, calc(100% - 36px)); margin: auto; }
+
+    .rainbow-rule {
+      height: 10px;
+      background: linear-gradient(90deg, var(--red) 0 16.6%, var(--orange) 16.6% 33.2%, var(--yellow) 33.2% 49.8%, var(--green) 49.8% 66.4%, var(--blue) 66.4% 83%, var(--violet) 83% 100%);
+      border-bottom: 3px solid var(--ink);
+    }
+    .topbar {
+      padding: 15px 0;
+      border-bottom: 2px solid var(--ink);
+      background: rgba(255,250,243,.88);
+      backdrop-filter: blur(12px);
+      position: sticky;
+      top: 0;
+      z-index: 20;
+    }
+    .nav { display:flex; align-items:center; justify-content:space-between; gap: 20px; }
+    .brand { display:flex; align-items:center; gap: 11px; font-weight: 800; letter-spacing: -.04em; }
+    .brand-mark { display:grid; place-items:center; width: 34px; height:34px; background:var(--ink); color: white; border-radius: 50%; font-size: 18px; }
+    .nav-links { display:flex; gap: 26px; font-family:'DM Mono', monospace; font-size:11px; text-transform:uppercase; letter-spacing:.08em; }
+    .nav-links a:hover { color: var(--pink); }
+    .pill { border: 2px solid var(--ink); padding: 10px 15px; border-radius: 999px; font-size: 12px; font-weight:800; background: var(--yellow); box-shadow: 3px 3px 0 var(--ink); }
+
+    .hero { padding: 72px 0 94px; position:relative; isolation:isolate; }
+    .hero::after { content:'✦'; position:absolute; right:4%; top: 33px; font-size: 130px; color: var(--yellow); z-index:-1; transform:rotate(16deg); text-shadow: 4px 5px 0 var(--ink); }
+    .kicker { font-family:'DM Mono', monospace; font-size: 12px; text-transform: uppercase; letter-spacing: .13em; display:flex; gap:9px; align-items:center; }
+    .kicker::before { content:''; width: 35px; height: 3px; background:var(--pink); }
+    h1 { font-size: clamp(72px, 12vw, 168px); line-height: .78; letter-spacing: -.09em; margin: 24px 0 28px; max-width: 900px; font-weight: 800; text-transform: uppercase; }
+    h1 .name-first, h1 em { display:block; }
+    h1 em { color: var(--pink); font-family:'Playfair Display', Georgia, serif; font-weight:800; letter-spacing:-.09em; padding-left:.03em; }
+    .designation { display:inline-flex; align-items:center; gap:10px; margin: 0 0 22px; padding: 8px 12px; border:2px solid var(--ink); background:var(--yellow); box-shadow:3px 3px 0 var(--ink); font-family:'DM Mono',monospace; text-transform:uppercase; font-size:11px; letter-spacing:.06em; }
+    .hero-grid { display:grid; grid-template-columns: 1.02fr .98fr; gap: 68px; align-items:end; }
+    .hero-copy { max-width: 610px; }
+    .lede { font-size: 20px; line-height:1.35; max-width: 560px; margin-bottom: 31px; }
+    .actions { display:flex; flex-wrap:wrap; gap: 13px; align-items:center; }
+    .btn { border: 2px solid var(--ink); border-radius: 999px; padding: 14px 20px; cursor:pointer; font-weight:800; box-shadow:4px 4px 0 var(--ink); transition: transform .2s, box-shadow .2s; }
+    .btn:hover { transform:translate(2px,2px) rotate(-1deg); box-shadow:2px 2px 0 var(--ink); }
+    .btn-primary { background:var(--pink); }
+    .btn-ghost { background:transparent; }
+    .hero-note { font-family:'DM Mono', monospace; font-size: 11px; margin-top: 17px; opacity:.7; }
+    .hero-art { position:relative; min-height: 470px; }
+    .portrait { width: min(390px, 90%); height: 510px; margin-left:auto; object-fit:cover; object-position: 50% 30%; border:3px solid var(--ink); border-radius: 44% 56% 28% 30% / 23% 26% 74% 77%; transform: rotate(4deg); box-shadow: 10px 12px 0 var(--ink); filter:saturate(1.05) contrast(1.02); }
+    .hero-badge { position:absolute; left: 1%; bottom: 28px; display:grid; place-items:center; width: 142px; height:142px; border-radius:50%; border:3px solid var(--ink); background:var(--yellow); transform: rotate(-14deg); box-shadow:6px 6px 0 var(--ink); text-align:center; font-weight:800; font-size:14px; line-height:1.05; }
+    .hero-badge span { display:block; font-size:30px; }
+    .sparkle { position:absolute; color:var(--violet); font-size:42px; }
+    .s1 { left: 9%; top: 64px; transform:rotate(-18deg); }
+    .s2 { right: 3%; bottom: 2px; color:var(--cyan); transform:rotate(18deg); }
+
+    .ticker { border-top: 3px solid var(--ink); border-bottom: 3px solid var(--ink); background:var(--ink); color:white; overflow:hidden; white-space:nowrap; }
+    .ticker-track { display:inline-block; padding: 15px 0; animation: ticker 24s linear infinite; font-family:'DM Mono',monospace; font-size:12px; text-transform:uppercase; letter-spacing:.1em; }
+    .ticker b { color:var(--yellow); margin:0 25px; }
+    @keyframes ticker { to { transform:translateX(-50%); } }
+
+    section { padding: 105px 0; }
+    .section-head { display:flex; align-items:end; justify-content:space-between; gap:30px; margin-bottom:36px; }
+    .eyebrow { font-family:'DM Mono',monospace; text-transform:uppercase; font-size:11px; letter-spacing:.12em; margin-bottom:12px; }
+    h2 { font-size: clamp(42px, 6vw, 78px); line-height:.92; letter-spacing:-.07em; margin:0; }
+    .section-intro { max-width: 330px; font-size:15px; line-height:1.45; }
+
+    .about { background:#ffdff0; border-top:3px solid var(--ink); border-bottom:3px solid var(--ink); }
+    .about-grid { display:grid; grid-template-columns: .85fr 1.15fr; gap: 70px; align-items:start; }
+    .copy-large { font-size: clamp(23px, 3vw, 38px); line-height:1.08; letter-spacing:-.04em; max-width: 620px; }
+    .copy-large strong { color: var(--pink); }
+    .facts { display:grid; grid-template-columns: repeat(2,1fr); border-top:2px solid var(--ink); }
+    .fact { padding:20px 15px 22px 0; border-bottom:2px solid var(--ink); }
+    .fact:nth-child(odd) { border-right:2px solid var(--ink); padding-right:20px; }
+    .fact:nth-child(even) { padding-left:20px; }
+    .fact-label { font-family:'DM Mono',monospace; font-size:10px; text-transform:uppercase; opacity:.65; }
+    .fact-value { font-size:22px; font-weight:800; margin-top:7px; }
+
+    .score-grid { display:grid; grid-template-columns: 1.3fr .7fr; gap:26px; }
+    .score-card, .quote-card { background:white; border:3px solid var(--ink); border-radius:var(--radius); box-shadow:var(--shadow); }
+    .score-card { padding: 30px; }
+    .score-row { display:grid; grid-template-columns: 180px 1fr 55px; align-items:center; gap: 18px; padding:17px 0; border-bottom: 1px solid var(--line); }
+    .score-row:last-child { border-bottom:0; }
+    .score-label { font-weight:800; }
+    .meter { height: 15px; border:2px solid var(--ink); border-radius:99px; overflow:hidden; background:#f2eaf0; }
+    .meter i { display:block; height:100%; border-right:2px solid var(--ink); background:linear-gradient(90deg,var(--pink),var(--yellow),var(--cyan)); }
+    .score-num { font-family:'DM Mono',monospace; font-size:12px; text-align:right; }
+    .quote-card { padding:31px; background:var(--violet); color:white; position:relative; overflow:hidden; }
+    .quote-card::after { content:'“'; position:absolute; font-family:Georgia,serif; font-size:240px; line-height:1; right:-10px; bottom:-70px; color:rgba(255,255,255,.2); }
+    blockquote { font-size:31px; line-height:1.03; letter-spacing:-.04em; margin: 35px 0 45px; position:relative; z-index:1; }
+    .quote-by { font-family:'DM Mono',monospace; font-size:11px; text-transform:uppercase; position:relative; z-index:1; }
+
+    .gallery { background:var(--cyan); border-top:3px solid var(--ink); border-bottom:3px solid var(--ink); }
+    .gallery-grid { display:grid; grid-template-columns: 1.25fr .8fr .8fr; grid-template-rows: 250px 250px; gap:14px; }
+    .gallery-grid figure { margin:0; overflow:hidden; border:3px solid var(--ink); background:var(--yellow); position:relative; }
+    .gallery-grid figure:first-child { grid-row: span 2; border-radius: 34px 8px 8px 8px; }
+    .gallery-grid figure:nth-child(2) { border-radius: 8px 34px 8px 8px; }
+    .gallery-grid figure:nth-child(4) { border-radius: 8px 8px 8px 34px; }
+    .gallery-grid img { width:100%; height:100%; object-fit:cover; transition: transform .5s; }
+    .gallery-grid figure:hover img { transform:scale(1.06) rotate(1deg); }
+    .gallery-grid figure::after { content: attr(data-caption); position:absolute; left:13px; bottom:12px; background:var(--paper); border:2px solid var(--ink); padding:6px 10px; font-weight:800; font-size:12px; transform:rotate(-2deg); }
+
+    .manifesto { position:relative; }
+    .manifesto-grid { display:grid; grid-template-columns: .9fr 1.1fr; gap: 70px; }
+    .manifesto-list { border-top:3px solid var(--ink); }
+    .manifesto-item { display:grid; grid-template-columns: 70px 1fr; gap:15px; padding:22px 0; border-bottom:2px solid var(--ink); }
+    .manifesto-num { font-family:'DM Mono',monospace; font-size:12px; }
+    .manifesto-item h3 { margin:0 0 6px; font-size:20px; }
+    .manifesto-item p { margin:0; line-height:1.45; opacity:.8; }
+    .unicorn { min-height:100%; background:linear-gradient(135deg,var(--yellow),var(--orange)); border:3px solid var(--ink); border-radius: 50% 22px 50% 22px; box-shadow:var(--shadow); padding:45px 35px; position:relative; overflow:hidden; }
+    .unicorn .horn { font-size:74px; position:absolute; right:45px; top:24px; transform:rotate(18deg); }
+    .unicorn .face { font-size:110px; margin:34px 0 22px; filter: drop-shadow(4px 4px 0 var(--ink)); }
+    .unicorn h3 { font-size:38px; line-height:.95; letter-spacing:-.06em; max-width:300px; margin:0 0 15px; }
+    .unicorn p { max-width:330px; line-height:1.45; }
+    .unicorn::before, .unicorn::after { content:'✦'; position:absolute; color:var(--pink); font-size:30px; }
+    .unicorn::before { left:24px; top:35px; } .unicorn::after { right:28px; bottom:25px; color:var(--violet); }
+
+    .footer { padding: 45px 0 65px; border-top:3px solid var(--ink); background:var(--ink); color:var(--paper); }
+    .footer-grid { display:flex; justify-content:space-between; gap:30px; align-items:end; }
+    .footer h2 { color:var(--yellow); font-size:54px; }
+    .footer p { max-width:400px; line-height:1.45; opacity:.75; }
+    .fine { font-family:'DM Mono',monospace; font-size:10px; opacity:.6; margin-top:40px; }
+    .toast { position:fixed; left:50%; bottom:24px; transform:translate(-50%, 160%); background:var(--ink); color:white; border:2px solid white; border-radius:999px; padding:14px 20px; z-index:50; box-shadow:5px 5px 0 var(--pink); transition:transform .35s; font-weight:800; }
+    .toast.show { transform:translate(-50%,0); }
+    .confetti { position:fixed; z-index:40; width:10px; height:16px; pointer-events:none; animation: fall 1.5s ease-out forwards; }
+    @keyframes fall { 0% { transform:translate(0,0) rotate(0); opacity:1; } 100% { transform:translate(var(--x),var(--y)) rotate(700deg); opacity:0; } }
+    @media (max-width: 800px) {
+      .nav-links { display:none; }
+      .hero { padding:55px 0 65px; }
+      .hero-grid, .about-grid, .score-grid, .manifesto-grid { grid-template-columns:1fr; gap:40px; }
+      .hero-art { min-height:390px; }
+      .portrait { height:420px; margin:auto; }
+      .hero-badge { left:4%; bottom:0; width:112px; height:112px; font-size:11px; }
+      .hero-badge span { font-size:24px; }
+      .section-head { display:block; }
+      .section-intro { margin-top:18px; }
+      .gallery-grid { grid-template-columns:1fr 1fr; grid-template-rows:240px 200px 200px; }
+      .gallery-grid figure:first-child { grid-row:span 2; }
+      .gallery-grid figure:last-child { grid-column:span 2; }
+      .score-row { grid-template-columns:130px 1fr 42px; gap:10px; }
+      .footer-grid { display:block; }
+    }
+    @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation-duration:.01ms !important; animation-iteration-count:1 !important; scroll-behavior:auto !important; transition:none !important; } }
+  </style>
+</head>
+<body>
+  <div class="rainbow-rule"></div>
+  <header class="topbar">
+    <div class="wrap nav">
+      <a class="brand" href="#top"><span class="brand-mark">✦</span><span>GAY GUY<br>OF THE WEEK</span></a>
+      <nav class="nav-links" aria-label="Main navigation"><a href="#verdict">The verdict</a><a href="#gallery">Evidence</a><a href="#manifesto">Standards</a></nav>
+      <a class="pill" href="#nominate">Nominate someone →</a>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <div class="kicker">Issue No. 001 · National sparkle desk</div>
+          <div class="designation">Person of the week <span>✦</span> official selection</div>
+          <h1 aria-label="Marquett Burton"><span class="name-first">Marquett</span><em>Burton</em></h1>
+          <p class="lede"><strong>The Gay Guy of the Week</strong> is a completely serious investigation into one man’s commitment to immaculate tailoring, dramatic pauses, and making an entrance like the rent is already paid.</p>
+          <div class="actions"><a class="btn btn-primary" href="#verdict">Inspect the evidence ↓</a><button class="btn btn-ghost" id="ceremonyBtn">Start the ceremony ✨</button></div>
+          <div class="hero-note">This presentation is lovingly unserious. Please bring your own fanfare.</div>
+        </div>
+        <div class="hero-art">
+          <span class="sparkle s1">✦</span><span class="sparkle s2">✦</span>
+          <img class="portrait" src="content/CleanShot 2026-08-23 at 14.45.20@2x.png" alt="Marquett Burton in a striking blue suit">
+          <div class="hero-badge"><span>★</span>certified<br>weekly icon<br>2026</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker"><div class="ticker-track">BREAKING: LOCAL MAN SERVES LOOKS <b>✦</b> SOURCES SAY THE SUIT IS DOING THE MOST <b>✦</b> UNICORN COUNCIL HAS BEEN CONSULTED <b>✦</b> BREAKING: LOCAL MAN SERVES LOOKS <b>✦</b> SOURCES SAY THE SUIT IS DOING THE MOST <b>✦</b> UNICORN COUNCIL HAS BEEN CONSULTED <b>✦</b></div></div>
+
+    <section class="about" id="verdict">
+      <div class="wrap about-grid">
+        <div><div class="eyebrow">01 / The official finding</div><p class="copy-large">After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong>Marquett Burton</strong> is bringing a level of polished charisma that is frankly irresponsible.</p></div>
+        <div class="facts">
+          <div class="fact"><div class="fact-label">Subject</div><div class="fact-value">Marquett Burton</div></div>
+          <div class="fact"><div class="fact-label">Current status</div><div class="fact-value">Booked &amp; fabulous</div></div>
+          <div class="fact"><div class="fact-label">Signature move</div><div class="fact-value">The cinematic pause</div></div>
+          <div class="fact"><div class="fact-label">Threat level</div><div class="fact-value">Delightfully high</div></div>
+          <div class="fact"><div class="fact-label">Preferred fabric</div><div class="fact-value">Anything with a lapel</div></div>
+          <div class="fact"><div class="fact-label">Award status</div><div class="fact-value">🏆 Undeniable</div></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">02 / The scorecard</div><h2>Vibes were<br>measured.</h2></div><p class="section-intro">Our highly scientific process includes one clipboard, three opinions, and a suspiciously powerful ring light.</p></div>
+        <div class="score-grid">
+          <div class="score-card">
+            <div class="score-row"><div class="score-label">Suit architecture</div><div class="meter"><i style="width:98%"></i></div><div class="score-num">98%</div></div>
+            <div class="score-row"><div class="score-label">Entrance energy</div><div class="meter"><i style="width:94%"></i></div><div class="score-num">94%</div></div>
+            <div class="score-row"><div class="score-label">Conversation sparkle</div><div class="meter"><i style="width:91%"></i></div><div class="score-num">91%</div></div>
+            <div class="score-row"><div class="score-label">Unbothered confidence</div><div class="meter"><i style="width:99%"></i></div><div class="score-num">99%</div></div>
+            <div class="score-row"><div class="score-label">Likelihood of stealing the room</div><div class="meter"><i style="width:100%"></i></div><div class="score-num">∞%</div></div>
+          </div>
+          <aside class="quote-card"><div class="eyebrow">Panel notes</div><blockquote>“He did not enter the room. He arrived in a limited-edition collector’s box.”</blockquote><div class="quote-by">— The committee, allegedly</div></aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="wrap">
+        <div class="section-head"><div><div class="eyebrow">03 / The evidence locker</div><h2>Exhibit A:<br>the man, the myth.</h2></div><p class="section-intro">Images gathered from the scene. Notice the posture. Notice the tailoring. Notice how the room has clearly become a supporting character.</p></div>
+        <div class="gallery-grid">
+          <figure data-caption="Blue suit. Blue period. Blue ribbon."><img src="content/CleanShot 2026-08-23 at 14.45.47@2x.png" alt="Marquett Burton speaking into a microphone in a blue suit"></figure>
+          <figure data-caption="Dinner, but make it editorial."><img src="content/CleanShot 2026-08-23 at 14.46.23@2x.png" alt="Marquett Burton seated at a formal dinner"></figure>
+          <figure data-caption="The look heard round the room."><img src="content/CleanShot 2026-08-23 at 14.46.26@2x.png" alt="Marquett Burton looking to the side in a patterned suit"></figure>
+          <figure data-caption="Poise under pressure."><img src="content/CleanShot 2026-08-23 at 14.46.38@2x.png" alt="Marquett Burton gesturing in a tailored green suit at a dining table"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="manifesto" id="manifesto">
+      <div class="wrap manifesto-grid">
+        <div><div class="eyebrow">04 / The standard</div><h2>What does it take to earn the sash?</h2><div class="manifesto-list">
+          <div class="manifesto-item"><div class="manifesto-num">01</div><div><h3>Serve a look.</h3><p>Not just clothing. A thesis statement with buttons.</p></div></div>
+          <div class="manifesto-item"><div class="manifesto-num">02</div><div><h3>Own the room.</h3><p>Preferably without moving any furniture.</p></div></div>
+          <div class="manifesto-item"><div class="manifesto-num">03</div><div><h3>Leave evidence.</h3><p>Photos, stories, or at minimum an excellent entrance.</p></div></div>
+        </div></div>
+        <aside class="unicorn"><span class="horn">🦄</span><div class="face">🌈</div><h3>Approved by the sparkle council.</h3><p>Every winner receives one imaginary sash, two imaginary roses, and the right to be mildly insufferable about this page for seven calendar days.</p><a class="btn btn-ghost" href="#nominate">See the rules →</a></aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="nominate"><div class="wrap"><div class="footer-grid"><div><div class="eyebrow">Have a candidate?</div><h2>Nominate<br>the next icon.</h2></div><p>Send us the name of someone who brings the sparkle, the story, and at least one photo with unreasonable confidence. The committee meets whenever it feels like it.</p></div><div class="fine">© 2026 Gay Guy of the Week · A parody presentation · Built for laughs, not legal proceedings · 🌈</div></div></footer>
+  <div class="toast" id="toast" role="status">The ceremony has begun. Please remain fabulous.</div>
+  <script>
+    const ceremonyBtn = document.querySelector('#ceremonyBtn');
+    const toast = document.querySelector('#toast');
+    const colors = ['#ff4fa3','#ff9e44','#ffd84f','#84d94d','#53d9d1','#4f89ff','#9666ff'];
+    ceremonyBtn.addEventListener('click', () => {
+      toast.classList.add('show');
+      setTimeout(() => toast.classList.remove('show'), 3200);
+      for (let i = 0; i < 42; i++) {
+        const bit = document.createElement('i');
+        bit.className = 'confetti';
+        bit.style.left = `${window.innerWidth / 2 + (Math.random() - .5) * 180}px`;
+        bit.style.top = `${window.innerHeight * .3}px`;
+        bit.style.background = colors[i % colors.length];
+        bit.style.setProperty('--x', `${(Math.random() - .5) * 700}px`);
+        bit.style.setProperty('--y', `${250 + Math.random() * 500}px`);
+        bit.style.transform = `rotate(${Math.random() * 90}deg)`;
+        document.body.appendChild(bit);
+        setTimeout(() => bit.remove(), 1700);
+      }
+    });
+  </script>
+</body>
+</html>
