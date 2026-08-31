@@ -1,30 +1,30 @@
 {
-  "name": "ALF",
-  "name_first": "ALF",
-  "name_last": "\u2726",
-  "slug": "alf",
-  "portrait": "content/alf-portrait.png",
-  "portrait_alt": "ALF, a furry brown alien with a long snout and black sunglasses, smiling at the camera",
+  "name": "Mr. Bud",
+  "name_first": "Mr.",
+  "name_last": "Bud",
+  "slug": "mr-bud",
+  "portrait": "content/mr-bud-portrait.jpg",
+  "portrait_alt": "A cold golden beer in a tall glass on a restaurant table",
   "gallery": [
-    "content/alf-gallery-1.png"
+    "content/mr-bud-gallery-1.jpg"
   ],
-  "context": "User describes ALF as an alien who likes eating cats and supplied a portrait. Official ALF pages reviewed 2026-08-30 identify him as Gordon Shumway, a furry, wise-cracking alien from Melmac who crash-landed in the Tanner family garage; the Tanners nicknamed him ALF, short for Alien Life Form. The late-1980s sitcom became a worldwide hit and led to animated spinoffs, later TV appearances, and streaming releases. Sources: https://www.alfofficial.com/ and https://www.alfofficial.com/about-alf/",
-  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into ALF\u2019s Melmacian glamour, indoor sunglasses, and an appetite that has every neighborhood cat checking its calendar.",
-  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">ALF</strong> crash-landed in a garage and somehow made intergalactic chaos look like entrance energy.",
+  "context": "The user introduced Mr. Bud as a fictional character and supplied a close-up photo of a cold golden beer in a tall restaurant glass. First-party Budweiser pages reviewed 2026-08-30 say Budweiser was developed in St. Louis in 1876 as a lighter, thirst-quenching lager; the current product is described as a medium-bodied, crisp American-style lager brewed with barley malt, rice, and hops. The Budweiser Clydesdales debuted in 1933. Sources: https://us.budweiser.com/, https://us.budweiser.com/budweiser, https://us.budweiser.com/history/, and https://us.budweiser.com/About-Us/",
+  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into Mr. Bud\u2019s golden-hour complexion, frosted-glass tailoring, and a foam crown with its own publicist.",
+  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">Mr. Bud</strong> has been crisp since 1876 and still refuses to enter a room without a full Clydesdale escort.",
   "facts": {
-    "status": "Wise-cracking on Earth",
-    "signature": "The garage crash entrance",
-    "threat": "Catastrophically hungry",
-    "fabric": "Premium Melmac fur",
-    "award": "\ud83c\udfc6 Intergalactic sparkle"
+    "status": "Cold & fully booked",
+    "signature": "The foam-crown entrance",
+    "threat": "Medium-bodied, maximum drama",
+    "fabric": "Barley, rice & audacity",
+    "award": "\ud83c\udfc6 Best headshot"
   },
-  "quote": "\u201cHe did not raid the refrigerator; he conducted a fully authorized Melmacian tasting menu.\u201d",
-  "quote_by": "\u2014 The committee, hiding the cat",
-  "ticker": "BREAKING: MELMAC HAS ENTERED THE BUILDING <b>\u2726</b> GARAGE LANDING CLEARS COMMITTEE REVIEW <b>\u2726</b> LOCAL CATS ADVISED TO REMAIN FABULOUSLY ALERT <b>\u2726</b> BREAKING: MELMAC HAS ENTERED THE BUILDING <b>\u2726</b> GARAGE LANDING CLEARS COMMITTEE REVIEW <b>\u2726</b> LOCAL CATS ADVISED TO REMAIN FABULOUSLY ALERT <b>\u2726</b>",
+  "quote": "\u201cHe did not get poured; he made a head-first entrance and requested the Clydesdales.\u201d",
+  "quote_by": "\u2014 The committee, checking his 1876 birth certificate",
+  "ticker": "BREAKING: MR. BUD ARRIVES WITH EXCELLENT HEAD <b>\u2726</b> CRISP SINCE 1876 <b>\u2726</b> CLYDESDALES REQUESTED AT THE VELVET ROPE <b>\u2726</b> BREAKING: MR. BUD ARRIVES WITH EXCELLENT HEAD <b>\u2726</b> CRISP SINCE 1876 <b>\u2726</b> CLYDESDALES REQUESTED AT THE VELVET ROPE <b>\u2726</b>",
   "captions": [
-    "Melmacian eyewear, maximum authority.",
-    "The snout entered before he did.",
-    "Garage landing, red-carpet confidence.",
-    "Hide the cat; cue the fanfare."
+    "Cold, golden, and camera-ready.",
+    "That foam has committee approval.",
+    "Serving barley-malt leading-man energy.",
+    "One glass. Four gallery bookings."
   ]
 }
