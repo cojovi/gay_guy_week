@@ -1,30 +1,30 @@
 {
-  "name": "Mr. Bud",
-  "name_first": "Mr.",
-  "name_last": "Bud",
-  "slug": "mr-bud",
-  "portrait": "content/mr-bud-portrait.jpg",
-  "portrait_alt": "A cold golden beer in a tall glass on a restaurant table",
+  "name": "Mike",
+  "name_first": "Mike",
+  "name_last": "",
+  "slug": "mike",
+  "portrait": "content/mike-portrait.jpg",
+  "portrait_alt": "Mike smiling for a selfie in a car while wearing a patterned button-down shirt and seat belt",
   "gallery": [
-    "content/mr-bud-gallery-1.jpg"
+    "content/mike-portrait.jpg"
   ],
-  "context": "The user introduced Mr. Bud as a fictional character and supplied a close-up photo of a cold golden beer in a tall restaurant glass. First-party Budweiser pages reviewed 2026-08-30 say Budweiser was developed in St. Louis in 1876 as a lighter, thirst-quenching lager; the current product is described as a medium-bodied, crisp American-style lager brewed with barley malt, rice, and hops. The Budweiser Clydesdales debuted in 1933. Sources: https://us.budweiser.com/, https://us.budweiser.com/budweiser, https://us.budweiser.com/history/, and https://us.budweiser.com/About-Us/",
-  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into Mr. Bud\u2019s golden-hour complexion, frosted-glass tailoring, and a foam crown with its own publicist.",
-  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">Mr. Bud</strong> has been crisp since 1876 and still refuses to enter a room without a full Clydesdale escort.",
+  "context": "The user identified the featured person as Mike, supplied his portrait, and said he works at A-Team Restoration. The company website reviewed 2026-10-07 describes A-Team Restoration as a Dallas-Fort Worth restoration company providing 24/7 water, fire and smoke, mold, hazmat, construction, air-duct, and carpet-cleaning services. Source: https://ateamrestoration.org/",
+  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into one man’s commitment to emergency-response energy, precision shirt collars, and arriving before the problem has finished happening.",
+  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">Mike</strong> of <a href=\"https://ateamrestoration.org\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>A-Team Restoration</strong></a> is restoring the vibe with a level of confidence that is frankly not covered by insurance.",
   "facts": {
-    "status": "Cold & fully booked",
-    "signature": "The foam-crown entrance",
-    "threat": "Medium-bodied, maximum drama",
-    "fabric": "Barley, rice & audacity",
-    "award": "\ud83c\udfc6 Best headshot"
+    "status": "On call & iconic",
+    "signature": "Restoring the vibe",
+    "threat": "Delightfully high",
+    "fabric": "One powerful dehumidifier",
+    "award": "🏆 Undeniable"
   },
-  "quote": "\u201cHe did not get poured; he made a head-first entrance and requested the Clydesdales.\u201d",
-  "quote_by": "\u2014 The committee, checking his 1876 birth certificate",
-  "ticker": "BREAKING: MR. BUD ARRIVES WITH EXCELLENT HEAD <b>\u2726</b> CRISP SINCE 1876 <b>\u2726</b> CLYDESDALES REQUESTED AT THE VELVET ROPE <b>\u2726</b> BREAKING: MR. BUD ARRIVES WITH EXCELLENT HEAD <b>\u2726</b> CRISP SINCE 1876 <b>\u2726</b> CLYDESDALES REQUESTED AT THE VELVET ROPE <b>\u2726</b>",
+  "quote": "“He did not enter the room. He assessed the damage and restored the entire vibe.”",
+  "quote_by": "— The committee, allegedly",
+  "ticker": "BREAKING: LOCAL MAN RESTORES THE VIBE <b>✦</b> SOURCES SAY THE COLLAR IS FULLY STRUCTURALLY SOUND <b>✦</b> UNICORN COUNCIL HAS BEEN DISPATCHED <b>✦</b> BREAKING: LOCAL MAN RESTORES THE VIBE <b>✦</b> SOURCES SAY THE COLLAR IS FULLY STRUCTURALLY SOUND <b>✦</b> UNICORN COUNCIL HAS BEEN DISPATCHED <b>✦</b>",
   "captions": [
-    "Cold, golden, and camera-ready.",
-    "That foam has committee approval.",
-    "Serving barley-malt leading-man energy.",
-    "One glass. Four gallery bookings."
+    "Patterned shirt. Structured response.",
+    "The emergency contact has arrived.",
+    "Smile: fully restored.",
+    "Seat belt on. Standards higher."
   ]
 }
