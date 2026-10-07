@@ -1,30 +1,30 @@
 {
-  "name": "Mike",
-  "name_first": "Mike",
-  "name_last": "",
-  "slug": "mike",
-  "portrait": "content/mike-portrait.jpg",
-  "portrait_alt": "Mike smiling for a selfie in a car while wearing a patterned button-down shirt and seat belt",
+  "name": "Adam Olson",
+  "name_first": "Adam",
+  "name_last": "Olson",
+  "slug": "adam-olson",
+  "portrait": "content/adam-olson-portrait-v2.jpg",
+  "portrait_alt": "Adam Olson wearing glasses and a blue checkered shirt inside a warmly lit restaurant",
   "gallery": [
-    "content/mike-portrait.jpg"
+    "content/adam-olson-portrait-v2.jpg"
   ],
-  "context": "The user identified the featured person as Mike, supplied his portrait, and said he works at A-Team Restoration. The company website reviewed 2026-10-07 describes A-Team Restoration as a Dallas-Fort Worth restoration company providing 24/7 water, fire and smoke, mold, hazmat, construction, air-duct, and carpet-cleaning services. Source: https://ateamrestoration.org/",
-  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into one man’s commitment to emergency-response energy, precision shirt collars, and arriving before the problem has finished happening.",
-  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">Mike</strong> of <a href=\"https://ateamrestoration.org\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>A-Team Restoration</strong></a> is restoring the vibe with a level of confidence that is frankly not covered by insurance.",
+  "context": "The user identified the featured person as Adam Olson, supplied his portrait, and said he works at Adam & Eve. The official company website reviewed 2026-10-07 describes Adam & Eve as a sexual-wellness retailer offering adult products, lingerie, lubricants, and educational resources. Source: https://www.adamandeve.com/",
+  "lede": "<strong>The Gay Guy of the Week</strong> is a completely serious investigation into Adam Olson’s commitment to blue-check tailoring, after-hours product intelligence, and making customer satisfaction look like a full-time department.",
+  "verdict": "After <strong>dozens of seconds</strong> of rigorous research, the panel has reached a verdict: <strong data-showcase=\"person-name\">Adam Olson</strong> of <a href=\"https://www.adamandeve.com\" target=\"_blank\" rel=\"noopener noreferrer\"><strong>Adam &amp; Eve</strong></a> has turned product knowledge into a full-scale public service.",
   "facts": {
-    "status": "On call & iconic",
-    "signature": "Restoring the vibe",
-    "threat": "Delightfully high",
-    "fabric": "One powerful dehumidifier",
-    "award": "🏆 Undeniable"
+    "status": "Discreetly dispatched",
+    "signature": "The satisfaction audit",
+    "threat": "Batteries included",
+    "fabric": "Blue gingham, after dark",
+    "award": "🏆 Pleasure professional"
   },
-  "quote": "“He did not enter the room. He assessed the damage and restored the entire vibe.”",
-  "quote_by": "— The committee, allegedly",
-  "ticker": "BREAKING: LOCAL MAN RESTORES THE VIBE <b>✦</b> SOURCES SAY THE COLLAR IS FULLY STRUCTURALLY SOUND <b>✦</b> UNICORN COUNCIL HAS BEEN DISPATCHED <b>✦</b> BREAKING: LOCAL MAN RESTORES THE VIBE <b>✦</b> SOURCES SAY THE COLLAR IS FULLY STRUCTURALLY SOUND <b>✦</b> UNICORN COUNCIL HAS BEEN DISPATCHED <b>✦</b>",
+  "quote": "“He did not enter the room. He arrived in discreet packaging.”",
+  "quote_by": "— The committee, signature required",
+  "ticker": "BREAKING: CUSTOMER SATISFACTION AT AN ALL-TIME HIGH <b>✦</b> DISCREET PACKAGING HAS ENTERED THE BUILDING <b>✦</b> PRODUCT EXPERTISE REMAINS FULLY CHARGED <b>✦</b> BREAKING: CUSTOMER SATISFACTION AT AN ALL-TIME HIGH <b>✦</b> DISCREET PACKAGING HAS ENTERED THE BUILDING <b>✦</b> PRODUCT EXPERTISE REMAINS FULLY CHARGED <b>✦</b>",
   "captions": [
-    "Patterned shirt. Structured response.",
-    "The emergency contact has arrived.",
-    "Smile: fully restored.",
-    "Seat belt on. Standards higher."
+    "Blue checks. No follow-up questions.",
+    "Discreet packaging, public confidence.",
+    "Customer satisfaction has a face.",
+    "After-hours product research."
   ]
 }
